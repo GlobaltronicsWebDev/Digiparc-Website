@@ -576,6 +576,11 @@ section {
 
 .section-bg {
   background-color: #8fffd6;
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 40px 20px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .section-title {
