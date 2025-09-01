@@ -1287,6 +1287,16 @@ section {
   object-fit: cover;
 }
 
+/* Make main spaces intro columns equal height */
+#main-spaces-intro .row .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-spaces-intro .row .col-lg-4 > div {
+  flex: 1;
+}
+
 .pricing .recommended-badge {
   position: absolute;
   top: 20px;
