@@ -729,14 +729,15 @@ section {
   width: 100px;
   height: 100px;
   background: #05417C;
-  border-radius: 50px;
+  border-radius: 30px;
+  max-width: 1800px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
   color: #fff;
-  
+
 }
 
 .services .icon-box .icon i {
